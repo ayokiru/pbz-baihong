@@ -1,0 +1,485 @@
+{
+ "pak_name": "zzz_zBaihong_P",
+ "weapons": [
+  {
+   "base": "BaiShanFengLeiJian",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.L2": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.R2": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "BaiYing",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.L": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "ChiRen",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.L": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "ChiZheCanJian",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Normal.Tail": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Tipsy.A": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Tipsy.B": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Tipsy.C": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Tipsy.Tail": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Drunk.A": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Drunk.B": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Drunk.C": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Drunk.Tail": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "ChiZheZuiJian",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Normal.Tail": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Tipsy.A": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Tipsy.B": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Tipsy.C": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Tipsy.Tail": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Drunk.A": "NS_LuanYing_BladeTrail_401_P1",
+    "ChiZheCanJian.Drunk.B": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Drunk.C": "NS_LuanYing_BladeTrail_401_P2",
+    "ChiZheCanJian.Drunk.Tail": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "CiGuHunDunJian",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "YuCong.Bing.Normal": "NS_LuanYing_BladeTrail_401_P1",
+    "YuCong.HunDun.Normal": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "Double",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.L2": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "DualHook",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.Weak.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.Weak.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "GuiTouBlade",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "HeiMoShang",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "Horizontal",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "Iron",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "JadeDual",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "Jigsaw",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "JueYing",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.L2": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "Long",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.L": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "LuanYing_Evolution",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L2": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "PoJun",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "ShuangYue",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "SlitheringSword",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "Ghost.C.R": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "SnakeDual",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Stab.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Stab.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Stab.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Stab.B.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Vortex.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Vortex.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Vortex.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R_Final": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.EXE.L": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "Tang",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.L2": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "TianXuanQingTongJian",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2",
+    "BiYuan.BHold": "NS_LuanYing_BladeTrail_401_P1"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "WoodenSword",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "XieShan",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2"
+   }
+  },
+  {
+   "base": "YanYueDao",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "YuuBlade",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.C.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.C.R": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.A.L": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.A.R": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.B.L": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B.R": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "ZhanMaBlade",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  },
+  {
+   "base": "ZiMingJian",
+   "trail_color": "presets/baihong.json",
+   "trails": {
+    "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
+    "Normal.C": "NS_LuanYing_BladeTrail_401_P2",
+    "Normal.B": "NS_LuanYing_BladeTrail_401_P2"
+   },
+   "blade_color": {
+    "to": "#8a8a8a",
+    "all": true,
+    "mesh": true
+   }
+  }
+ ]
+}
