@@ -1,0 +1,67 @@
+{
+ "id": "baihong",
+ "description": "Wild Oriole's trails in black and white: the main ribbon and its strands black and fully opaque, the glowing tip white. Only the changed script slots are written.",
+ "systems": {
+  "NS_LuanYing_BladeTrail_401_P1": {
+   "literals": [
+    {
+     "emitter": "NE_Blade_Main_0",
+     "start": 11,
+     "values": [
+      0.04,
+      0.04,
+      0.04,
+      1.0
+     ]
+    },
+    {
+     "emitter": "NE_Blade_Detail_0",
+     "start": 13,
+     "values": [
+      0.04,
+      0.04
+     ]
+    },
+    {
+     "emitter": "NE_Blade_HighLight_0",
+     "start": 15,
+     "values": [
+      150.0,
+      150.0
+     ]
+    }
+   ]
+  },
+  "NS_LuanYing_BladeTrail_401_P2": {
+   "literals": [
+    {
+     "emitter": "NE_Blade_Main_0",
+     "start": 11,
+     "values": [
+      0.04,
+      0.04,
+      0.04,
+      1.0
+     ]
+    },
+    {
+     "emitter": "NE_Blade_Details_0",
+     "start": 10,
+     "values": [
+      0.04,
+      0.04,
+      0.04
+     ]
+    },
+    {
+     "emitter": "NE_Blade_HighLight_0",
+     "start": 14,
+     "values": [
+      150.0,
+      150.0
+     ]
+    }
+   ]
+  }
+ }
+}
