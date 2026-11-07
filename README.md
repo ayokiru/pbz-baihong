@@ -36,6 +36,18 @@ Baihong gives almost every weapon in Phantom Blade Zero the same swing trail: a 
     <td width="50%"><img src="docs/overhead.jpg" alt="An overhead swing over the player's head" width="100%"></td>
     <td width="50%"><img src="docs/circle.jpg" alt="A circular swing around the player" width="100%"></td>
   </tr>
+  <tr>
+    <td width="50%"><img src="docs/dual-trails.gif" alt="A dual blade combo, two trails at once" width="100%"></td>
+    <td width="50%"><img src="docs/dual-circle.jpg" alt="Dual blades drawing a loop around the player" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Dual blades</sub></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/dual-arcs.jpg" alt="Two arcs from dual blades" width="100%"></td>
+    <td width="50%"><img src="docs/dual-cross.jpg" alt="Dual blades crossing in a downward swing" width="100%"></td>
+  </tr>
 </table>
 
 ## What changes
