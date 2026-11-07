@@ -1,6 +1,7 @@
 <p align="center"><img src="docs/banner.jpg" alt="Baihong for Phantom Blade Zero: black blade trails with a white edge" width="100%"></p>
 
 <p align="center">
+  <a href="https://www.nexusmods.com/phantombladezero/mods/775"><img src="https://img.shields.io/badge/Nexus%20Mods-mod%20775-6E6A63?style=flat-square" alt="Nexus Mods page"></a>
   <a href="https://github.com/ayokiru/pbz-baihong/releases/latest"><img src="https://img.shields.io/github/v/release/ayokiru/pbz-baihong?style=flat-square&label=download&color=6E6A63" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/game-Phantom%20Blade%20Zero-1A1416?style=flat-square" alt="Phantom Blade Zero">
   <a href="https://github.com/ayokiru/pbz-bladesmith"><img src="https://img.shields.io/badge/built%20with-Bladesmith-1A1416?style=flat-square" alt="Built with Bladesmith"></a>
