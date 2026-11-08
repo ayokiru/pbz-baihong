@@ -1,0 +1,74 @@
+{
+ "id": "baihong-fade",
+ "description": "The Baihong trails for weapons that end their trails with a fade instead of switching them off: Wild Oriole's trail ignores the fade, so its UE_MaxTime goes from 10 s to 0.6 s and it ends by itself.",
+ "systems": {
+  "NS_LuanYing_BladeTrail_401_P1": {
+   "literals": [
+    {
+     "emitter": "NE_Blade_Main_0",
+     "start": 11,
+     "values": [
+      0.04,
+      0.04,
+      0.04,
+      1.0
+     ]
+    },
+    {
+     "emitter": "NE_Blade_Detail_0",
+     "start": 13,
+     "values": [
+      0.04,
+      0.04
+     ]
+    },
+    {
+     "emitter": "NE_Blade_HighLight_0",
+     "start": 15,
+     "values": [
+      150.0,
+      150.0
+     ]
+    }
+   ],
+   "user_floats": [
+    0.6
+   ]
+  },
+  "NS_LuanYing_BladeTrail_401_P2": {
+   "literals": [
+    {
+     "emitter": "NE_Blade_Main_0",
+     "start": 11,
+     "values": [
+      0.04,
+      0.04,
+      0.04,
+      1.0
+     ]
+    },
+    {
+     "emitter": "NE_Blade_Details_0",
+     "start": 10,
+     "values": [
+      0.04,
+      0.04,
+      0.04
+     ]
+    },
+    {
+     "emitter": "NE_Blade_HighLight_0",
+     "start": 14,
+     "values": [
+      150.0,
+      150.0
+     ]
+    }
+   ],
+   "user_floats": [
+    0.6
+   ]
+  }
+ },
+ "subfolder": "fade"
+}

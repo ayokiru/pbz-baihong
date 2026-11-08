@@ -455,7 +455,7 @@
   },
   {
    "base": "ZhanMaBlade",
-   "trail_color": "presets/baihong.json",
+   "trail_color": "presets/baihong-fade.json",
    "trails": {
     "Normal.A": "NS_LuanYing_BladeTrail_401_P1",
     "Normal.C": "NS_LuanYing_BladeTrail_401_P2",

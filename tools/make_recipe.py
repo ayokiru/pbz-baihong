@@ -11,6 +11,10 @@ LIGHT = "NS_LuanYing_BladeTrail_401_P1"   # light attacks and the rest
 HEAVY = "NS_LuanYing_BladeTrail_401_P2"   # heavy and charged attacks
 KEEP = ("Kick", "Blink")                  # kicks and the dodge keep their own look
 GREY = {"to": "#8a8a8a", "all": True, "mesh": True}  # the whole weapon; "mesh" because some blades ignore the override
+# the Outlaw Warblade ends its trails with a fade instead of switching them off; Wild Oriole's trail ignores the
+# fade and hung on the blade, so it gets a copy that ends by itself. Other fading weapons (Bladesmith's catalog:
+# fades) may need the same; add them here once a player reports one.
+FADE = ("ZhanMaBlade",)
 NO_BLADE = ("XieShan",)                   # its blade is an effect, there is no material to recolor
 
 
@@ -23,7 +27,8 @@ def trail_for(tag: str) -> str | None:
 def recipe(catalog: list[dict]) -> dict:
     weapons = []
     for w in catalog:
-        entry = {"base": w["key"], "trail_color": "presets/baihong.json",
+        preset = "presets/baihong-fade.json" if w["key"] in FADE else "presets/baihong.json"
+        entry = {"base": w["key"], "trail_color": preset,
                  "trails": {t["tag"]: trail_for(t["tag"]) for t in w["trails"] if trail_for(t["tag"])}}
         if not w["key"].startswith(NO_BLADE):
             entry["blade_color"] = GREY
