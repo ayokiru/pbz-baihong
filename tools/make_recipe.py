@@ -39,3 +39,9 @@ if __name__ == "__main__":
     r = recipe(catalog)
     out.write_text(json.dumps(r, indent=1) + "\n", encoding="utf-8", newline="\n")
     print(out.name, len(r["weapons"]), "weapons")
+    # trails only: the same trails, every weapon keeps its own look (same pak name, so it replaces the main file)
+    for w in r["weapons"]:
+        w.pop("blade_color", None)
+    trails = out.with_name("baihong-trails-only.json")
+    trails.write_text(json.dumps(r, indent=1) + "\n", encoding="utf-8", newline="\n")
+    print(trails.name)
